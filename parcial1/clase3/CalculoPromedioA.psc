@@ -15,3 +15,5 @@ Proceso CalculoPromedioA
 	promedio = suma / al
 	Escribir "El promedio general del grupo es de: " promedio 
 FinProceso
+
+
