@@ -1,0 +1,7 @@
+ciclos
+while, do while, switch, for 
+
+datos primitivos
+entero, real , caracter texto ,cadenas y booleanos 
+
+Definir edad Como (Entero,Real,booleanos,caracteres)
