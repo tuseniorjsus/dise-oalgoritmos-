@@ -27,3 +27,23 @@ if(si) num %2 == 0
 else(si no)
     escribir "El numero es un numero impar"
 Fin 
+
+Inicio 
+real o float num 
+
+escribir "Ingresa un numero" 
+leer num 
+Mientras que num == 0 
+
+if(si) num %2 == 0
+    if num<0
+        escribir "El numero es un numero par negativo"
+    else 
+       escribir "El numero es un numero par positivo" 
+else(si no)
+    if num<0
+        escribir "El numero es un numero impar negativo"
+    else 
+       escribir "El numero es un numero impar positivo" 
+    
+Fin 
