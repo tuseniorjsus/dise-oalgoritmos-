@@ -1,0 +1,29 @@
+Jerarquía de operaciones al momento de programar :)
+
+Numeros negativos y positivos 
+Inicio 
+real o float num 
+
+escribir "Ingresa un numero" 
+leer num 
+Mientras que num == 0 
+
+if(si) num <0
+    escribir "El numero es un numero negativo
+else(si no)
+    escribir "El numero es un numero positivo
+Fin 
+
+PAR O IMPAR 
+Inicio 
+real o float num 
+
+escribir "Ingresa un numero" 
+leer num 
+Mientras que num == 0 
+
+if(si) num %2 == 0
+    escribir "El numero es un numero par"
+else(si no)
+    escribir "El numero es un numero impar"
+Fin 

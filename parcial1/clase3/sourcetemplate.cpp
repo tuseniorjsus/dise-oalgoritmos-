@@ -1,4 +1,4 @@
-#include "ColaL.h"
+#include "template.h"
 void menu()
 {
 	cout << "FRASES" << endl; 
