@@ -1,1 +1,7 @@
 Inicio 
+Definir Variables 
+Solicitar info a usuario 
+Proceso 
+Imprimir sol 
+Fin 
+Con la herramienta de definir en pseint se pueden declarar las Variables como su tipo de datos
