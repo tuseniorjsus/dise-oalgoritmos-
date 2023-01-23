@@ -1,0 +1,73 @@
+
+Numero mayor que 10 
+Inicio
+Definir num, res como Real; 
+Escribir "Ingresa un numero: " ; 
+Leer num; 
+Si num >= 10 entonces: 
+    res <- num * 3; 
+Si no: 
+    res<- num/4; 
+Fin 
+
+
+ 
+Inicio 
+Definir precioLista, des,impuestos, Total como Real; 
+IVA<-.16; 
+EscrIbir "Ingresa el precio de lista del artículo; 
+Leer precioLista; 
+impuestos <- precio*IVA; 
+Total <- impuestos+ precioLista; 
+si impuestos>150 entonces: 
+    Total<-Total-(Total*.25); 
+Escribir "Precio de lista: " precioLista
+Escribir "IVA: " impuestos; 
+Escribir " Total : " Total; 
+Fin 
+
+Inicio
+Definir num1, num2, num3, actual como Real; 
+Escribir "Ingresa un numero: "; 
+Leer num1; 
+Escribir "Ingresa un numero: "; 
+Leer num2; 
+Escribir "Ingresa un numero: "; 
+Leer num3; 
+Si num1 >=num2&&num1>=num3; 
+    Escribir "El numero mas grande es: " num1 ; 
+Si no: 
+    Si num2>=num1 && num2>=num3; 
+        Escribir "El numero mas grande es: " num2; 
+    Si no: 
+        Escribir "El numero mas grande es: " num3; 
+Fin 
+
+alternativa 
+
+Algoritmo nume(Inicio)
+	
+	Definir actual,i como Real; 
+	Dimension num[3]
+	Escribir "Ingresa un numero: "; 
+	Leer num[1]; 
+	Escribir "Ingresa un numero: "; 
+	Leer num[2]; 
+	Escribir "Ingresa un numero: "; 
+	Leer num[3]; 
+	actual <- 0;  
+	i<-1; 
+	Repetir
+		Si num[i]>actual  Entonces
+			actual<-num[i];
+		SiNo
+			actual = actual; 
+		Fin Si
+		i = i+1; 
+	Hasta Que i>3
+	Escribir "El numero mas grande es: " actual; 
+
+FinAlgoritmo
+
+
+    
