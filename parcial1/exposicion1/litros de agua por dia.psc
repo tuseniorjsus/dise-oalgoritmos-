@@ -3,7 +3,7 @@ Algoritmo litros
 	ml<-30
 	Repetir
 		Limpiar pantalla 
-		Escribir "Qué edad tienes(tienes que ser mayor de 15 años): ";
+		Escribir "Quï¿½ edad tienes(tienes que ser mayor de 15 aï¿½os): ";
 		Leer edad; 
 	Mientras Que (edad < 15)
 	si edad > 15 Entonces 
