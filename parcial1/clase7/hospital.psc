@@ -13,7 +13,7 @@ Proceso Hospital
 				Escribir "Procesando" ;
 			Fin Si
 		Fin Mientras
-		Escribir "Cuál es la edad del paciente "; 
+		Escribir "CuÃ¡l es la edad del paciente "; 
 		Leer edadi; 
 		Si  edadi>=14 y edadi<22 Entonces
 			edad = Verdadero; 
