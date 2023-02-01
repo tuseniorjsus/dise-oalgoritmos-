@@ -3,14 +3,18 @@ Proceso EJ3_4
 	suma= 0; 
 	gasto = 1; 
 	contador= 1 ; 
-	Mientras gasto>0 y gasto <> 0 Hacer
+	Mientras gasto <> 0 Hacer
+		
 		Escribir "Escribe el gasto num " contador; 
 		Leer gasto; 
-		suma = suma +gasto; 
-		Si gasto == 0 Entonces
+		Si gasto>0 Entonces
+			suma = suma +gasto; 
+		Fin Si
+		Si gasto ==0  Entonces
 			contador= contador-1; 
 			
 		SiNo
+			
 			contador = contador +1; 
 		Fin Si
 		
@@ -19,6 +23,6 @@ Proceso EJ3_4
 		
 	Fin Mientras
 	Escribir "El total de tus gastos es de: " suma; 
-	Escribir "Realizaste " contador gastos " gastos"; 
+	Escribir "Realizaste " contador " gastos"; 
 	
 FinProceso
