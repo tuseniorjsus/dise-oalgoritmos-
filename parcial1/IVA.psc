@@ -3,6 +3,7 @@ Definir precioLista, des,impuestos, Total como Real
 	
 	Escribir  "Ingresa el precio de lista del artículo:"; 
 	Leer precioLista; 
+	precioListam = precioLista; 
 	Total = precioLista/1.16; 
 	impuestos = Total*.16
 	 
@@ -14,14 +15,16 @@ Definir precioLista, des,impuestos, Total como Real
 		precioLista<-precioLista-des; 
 		Total = precioLista/1.16; 
 		impuestos = Total*.16
-		Escribir "Descuento del 25%: " des; 
+		
 
 	Fin Si
 
 		
-	Escribir "Precio de lista con o sin descuento: " precioLista
+	Escribir "Precio de lista : " precioListam
+	Escribir " Precio sin IVA : " Total; 
+	Escribir "Descuento del 25%: " des; 
 	Escribir "IVA: " impuestos; 
-	Escribir " Precio sin Impuestos : " Total; 
+	Escribir "Total: " precioLista; 
 
 
 FinAlgoritmo
